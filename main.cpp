@@ -1,21 +1,34 @@
-#include<stdio.h>
-#include<string.h>
-#include<stdlib.h>
-#include<math.h>
-#define inparr(n, arr) for(int i=0; i<n; i++){scanf("%d", &arr[i]);}
-#define outparr(n, arr) for(int i=0; i<n; i++){printf("%d ", arr[i]);}
-int max(int n, int arr[]) {int max;for(int i=0; i<n; i++){if(arr[i]>max) max = arr[i];}return max;}
-int min(int n, int arr[]) {int min;for(int i=0; i<n; i++){if(arr[i]<min) min = arr[i];}return min;}
-#define sortasc(n, arr) for(int i=0; i<n; i++){for(int j=0; j<n-1; j++){if(arr[j]>arr[j+1]){int temp = arr[j];arr[j] = arr[j+1];arr[j+1] = temp;}}}
-#define sortdesc(n, arr) for(int i=0; i<n; i++){for(int j=0; j<n-1; j++){if(arr[j]<arr[j+1]){int temp = arr[j];arr[j] = arr[j+1];arr[j+1] = temp;}}}
+#include<bits/stdc++.h>
+using namespace std;
+typedef long long         ll;
+typedef vector<int>       vi;
+typedef vector<long long> vl;
+#define pb push_back
+#define ff                first
+#define ss                second
+#define forn(n)           for(int i=0; i<n; i++)
+#define forc(cn,abc)      ((cn).find(abc)!=(cn).end())
+#define yes               cout << "YES\n";
+#define no                cout << "NO\n";
+#define all(a)            a.begin(), a.end()
+#define rall(a)           a.rbegin(), a.rend()
+#define poin(x)           cout << fixed << setprecision(x);
 
-int main()
+void solve()
 {
-    int test;
-    scanf("%d", &test);
-    while(test--)
+    
+}
+
+int main() {
+    ios_base::sync_with_stdio(0);
+    cin.tie(0);
+
+    int t;
+    cin >> t;
+    while(t--)
     {
-        
+        solve();
     }
+
     return 0;
 }
