@@ -6,6 +6,7 @@ typedef vector<long long> vl;
 #define pb push_back
 #define ff                first
 #define ss                second
+#define endl              "\n"
 #define yes               cout << "YES\n";
 #define no                cout << "NO\n";
 #define all(a)            a.begin(), a.end()
