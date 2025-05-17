@@ -6,8 +6,6 @@ typedef vector<long long> vl;
 #define pb push_back
 #define ff                first
 #define ss                second
-#define forn(n)           for(int i=0; i<n; i++)
-#define forc(cn,abc)      ((cn).find(abc)!=(cn).end())
 #define yes               cout << "YES\n";
 #define no                cout << "NO\n";
 #define all(a)            a.begin(), a.end()
